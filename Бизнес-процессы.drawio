@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.7.14">
+  <diagram name="Page-1" id="veRpo0tACFwU-HL0MGSM">
+    <mxGraphModel dx="2876" dy="2355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VRKETtg9gcUAPWKbDu3B-1" value="отдел&lt;div&gt;ЗАКУПКИ&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-130" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VRKETtg9gcUAPWKbDu3B-2" value="отдел&lt;div&gt;СКЛАД&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="980" y="200" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VRKETtg9gcUAPWKbDu3B-3" value="отдел&lt;div&gt;ЛОГИСТИКА&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="980" y="440" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VRKETtg9gcUAPWKbDu3B-5" value="Поставщики" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="-80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VRKETtg9gcUAPWKbDu3B-13" value="ПРОДАЖИ" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="260" y="730" width="200" height="350" as="geometry">
+            <mxRectangle x="240" y="780" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRKETtg9gcUAPWKbDu3B-15" value="Маркетплейсы" style="whiteSpace=wrap;html=1;" vertex="1" parent="VRKETtg9gcUAPWKbDu3B-13">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VRKETtg9gcUAPWKbDu3B-14" value="Сайт" style="whiteSpace=wrap;html=1;" vertex="1" parent="VRKETtg9gcUAPWKbDu3B-13">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VRKETtg9gcUAPWKbDu3B-17" value="Контактный центр&lt;div&gt;(операторы)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="VRKETtg9gcUAPWKbDu3B-13">
+          <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VRKETtg9gcUAPWKbDu3B-16" value="Наши ШЦ" style="whiteSpace=wrap;html=1;" vertex="1" parent="VRKETtg9gcUAPWKbDu3B-13">
+          <mxGeometry x="40" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VRKETtg9gcUAPWKbDu3B-20" value="Доставка" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="730" width="200" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="VRKETtg9gcUAPWKbDu3B-6" value="Партнерские пункты выдачи" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VRKETtg9gcUAPWKbDu3B-20">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VRKETtg9gcUAPWKbDu3B-7" value="Наши ШЦ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VRKETtg9gcUAPWKbDu3B-20">
+          <mxGeometry x="40" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VRKETtg9gcUAPWKbDu3B-18" value="Адресная&lt;div&gt;доставка&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VRKETtg9gcUAPWKbDu3B-20">
+          <mxGeometry x="40" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VRKETtg9gcUAPWKbDu3B-19" value="Регионы" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VRKETtg9gcUAPWKbDu3B-20">
+          <mxGeometry x="40" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VRKETtg9gcUAPWKbDu3B-22" value="отдел&lt;div&gt;БУХГАЛТЕРИЯ&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="980" y="-130" width="150" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
