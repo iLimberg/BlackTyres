@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.7.14">
   <diagram name="Page-1" id="veRpo0tACFwU-HL0MGSM">
-    <mxGraphModel dx="5439" dy="4262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5569" dy="4337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -228,17 +228,14 @@
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-46" value="Наши ШЦ" style="whiteSpace=wrap;html=1;" vertex="1" parent="QEDv5VtxAJrO-wZHLEnQ-42">
           <mxGeometry x="40" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-47" value="Список операций и документов, производимых отделом закупок:&lt;div&gt;&lt;ol&gt;&lt;li&gt;Заказ поставщику (может поступать несколько единиц однообразных документов, потому что может быть несколько поставок с разных складов):&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Поступление&lt;/li&gt;&lt;li&gt;приходный ордер&lt;/li&gt;&lt;li&gt;счет фактуры&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-3936" y="-2990" width="360" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-48" value="Есть 1 заказ поставщику. По этому заказу поставщик может привезти несколько документов. Сейчас мы приходуем поступление одним документом вместо нескольких, которые привез водитель (в ЭДО тоже поступает 3 документа). Проблема: в 1С УТ нет возможности&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-3936" y="-2840" width="360" height="110" as="geometry" />
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-47" value="Список операций и документов, производимых отделом закупок:&lt;div&gt;&lt;ol&gt;&lt;li&gt;Заказ поставщику (может поступать несколько единиц однообразных документов, потому что может быть несколько поставок с разных складов):&lt;/li&gt;&lt;ol&gt;&lt;li&gt;Поступление&lt;/li&gt;&lt;li&gt;приходный ордер&lt;/li&gt;&lt;li&gt;счет фактуры&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-3800" y="-2970" width="360" height="160" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QEDv5VtxAJrO-wZHLEnQ-49" target="QEDv5VtxAJrO-wZHLEnQ-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-49" value="Заказ&lt;div&gt;100 шт&lt;/div&gt;&lt;div&gt;Арт. 12345&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4000" y="-2680" width="120" height="60" as="geometry" />
+          <mxGeometry x="-3650" y="-2560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QEDv5VtxAJrO-wZHLEnQ-51" target="QEDv5VtxAJrO-wZHLEnQ-53">
           <mxGeometry relative="1" as="geometry" />
@@ -255,28 +252,45 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-51" value="Приход от поставщика (2 документ)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3800" y="-2680" width="120" height="60" as="geometry" />
+          <mxGeometry x="-3450" y="-2560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-53" value="Приход 1&lt;div&gt;50 шт&lt;/div&gt;&lt;div&gt;арт 12345&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3900" y="-2510" width="120" height="60" as="geometry" />
+          <mxGeometry x="-3550" y="-2390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-55" value="Приход 2&lt;div&gt;50 шт&lt;/div&gt;&lt;div&gt;арт 12345&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3700" y="-2510" width="120" height="60" as="geometry" />
+          <mxGeometry x="-3350" y="-2390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-62" value="1С УТ нашла данный заказ" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3600" y="-2680" width="120" height="60" as="geometry" />
+          <mxGeometry x="-3250" y="-2560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-65" value="Процесс заказ поставщику (отд закупки)" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=59;" vertex="1" parent="1">
           <mxGeometry x="-3900" y="-3260" width="560" height="220" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-66" value="Описание ЭДО (этого процесса вообще нет).&lt;div&gt;В ЭДО передается УПД, в нем содержится № документа, дата, код товара, кол-во, цена, ГТД, сумма документа и др) и маркировка по каждому товару.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;На каждый документ прихода должен быть свой документ в 1С&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-3920" y="-2400" width="360" height="110" as="geometry" />
+          <mxGeometry x="-3570" y="-2280" width="360" height="110" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-67" value="Процесс заказ поставщику (отд продаж)" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=59;" vertex="1" parent="1">
           <mxGeometry x="-3320" y="-3260" width="560" height="230" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-68" value="API.&lt;div&gt;&lt;br&gt;&lt;div&gt;AS IS&lt;br&gt;&lt;div&gt;Приходит заказ покупателя. Проверка наличия на складе, проверка у поставщика.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Подтверждение с клиентом по телефону заказа.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;После этого делается резервирование у поставщика на b2b руками, либо b2b по API.&lt;/div&gt;&lt;div&gt;Бывает забывают отменить (поставить отмена заказа в 1С) и товар приезжает к нам.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;TO BE&lt;/div&gt;&lt;div&gt;Приходит заказ покупателя. Автоматом проверяется наличие на складе и у поставщика. Система автоматом резервирует заказ у поставщика, у нас 1С показывает, что товар в наличии, оператор перезванивает клиенту, клиент подтверждает заказ. Оператор ставит дату поступления товара на любой из складов. Снова обмен с поставщиком по API когда нам нужно привезти товар.&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-3220" y="-2987" width="360" height="337" as="geometry" />
+        </mxCell>
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-69" value="&lt;span style=&quot;text-align: left;&quot;&gt;Есть 1 заказ поставщику. По этому заказу поставщик может привезти несколько документов. Сейчас мы приходуем поступление одним документом вместо нескольких, которые привез водитель (в ЭДО тоже поступает 3 документа). Проблема: в 1С УТ нет возможности&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3800" y="-2800" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-70" value="Не забыть.&lt;div&gt;Нужно блочно писать 1С, чтобы можно было без боли обновлять&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2420" y="-470" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-75" value="Отчет в отделе закупок&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4120" y="-3022" width="250" height="382" as="geometry">
+            <mxRectangle x="-4120" y="-3022" width="180" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-71" value="AS IS.&lt;div&gt;Утром выгрузка 5 отчетов из 1С. Последующая ручная компиляция в Эксель. Затраты по времени: 1,5-2 часа (экономика посчитана).&lt;/div&gt;&lt;div&gt;Анализ, заказ поставщику. Проводится 1 раз в день.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="QEDv5VtxAJrO-wZHLEnQ-75">
+          <mxGeometry x="20" y="40" width="210" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-73" value="TO BE.&lt;div&gt;Утром выгрузка из 1С отчета сразу в Эксель (10 мин.). Загрузка полученных данных в 1С,&lt;/div&gt;&lt;div&gt;Анализ, заказ поставщику.&lt;/div&gt;&lt;div&gt;Проводится 2-3 раза в день.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ЗАДАЧА по отчету выполняется.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="QEDv5VtxAJrO-wZHLEnQ-75">
+          <mxGeometry x="20" y="196" width="210" height="166" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
