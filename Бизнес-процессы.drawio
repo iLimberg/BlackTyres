@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.7.14">
   <diagram name="Page-1" id="veRpo0tACFwU-HL0MGSM">
-    <mxGraphModel dx="5644" dy="4381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6047" dy="4614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -393,7 +393,10 @@
           <mxGeometry x="30" y="11" width="330" height="115" as="geometry" />
         </mxCell>
         <mxCell id="zcdSIdRNRZWzkI2NlEDc-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;Работа с перемещением товаров по складам.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;AS IS&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Собираем отчет (1,5-2 часа) - 1С + руки&lt;/div&gt;&lt;div&gt;Анализ продаж и остатков на складах (0,5 - 1 час) - руками&lt;/div&gt;&lt;div&gt;Перемещение товаров с основного склада на ШЦ (1 час) - руки в 1С&lt;/div&gt;&lt;div&gt;Перемещение с ШЦ на основной склад (30 мин) - руки в 1С&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;perimeterSpacing=0;spacingLeft=6;" vertex="1" parent="1">
-          <mxGeometry x="-2180" y="-3460" width="360" height="210" as="geometry" />
+          <mxGeometry x="90" y="90" width="360" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="zcdSIdRNRZWzkI2NlEDc-8" value="&lt;div&gt;Авто резервирование заказа (это не автозаказ с сайта).&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Плохо работает (не резервирует 1С товар, хотя он есть у нас на складе).&lt;/div&gt;&lt;div&gt;Если товар освободился из резерва (отмена заказа), сейчас он не попадает в другие резервы (под следующий заказ).&lt;/div&gt;&lt;div&gt;Если товар едет от поставщиков и в этом заказе поставщику нет резерва, то он тоже не зарезервируется.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-2250" y="-3370" width="380" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
