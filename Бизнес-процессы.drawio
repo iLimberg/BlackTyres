@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.7.14">
   <diagram name="Page-1" id="veRpo0tACFwU-HL0MGSM">
-    <mxGraphModel dx="5382" dy="4229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5644" dy="4381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,7 +152,7 @@
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QEDv5VtxAJrO-wZHLEnQ-27" target="QEDv5VtxAJrO-wZHLEnQ-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-24" value="1. Этап. Присылает список товаров и цен" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QEDv5VtxAJrO-wZHLEnQ-23" vertex="1" connectable="0">
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-24" value="1. Этап. Присылает прайс листы/остатки" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QEDv5VtxAJrO-wZHLEnQ-23" vertex="1" connectable="0">
           <mxGeometry x="-0.1883" y="-3" relative="1" as="geometry">
             <mxPoint x="-22" y="7" as="offset" />
           </mxGeometry>
@@ -253,22 +253,22 @@
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-161" value="Перезвон клиенту - 1 минуты&lt;div&gt;Поставить дату поступления на наш склад - 30 сек&lt;/div&gt;&lt;div&gt;Общие затраты - 1,5 минуты&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Деньги: Х руб.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=10;" parent="QEDv5VtxAJrO-wZHLEnQ-76" vertex="1">
           <mxGeometry x="420" y="330" width="360" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="zcdSIdRNRZWzkI2NlEDc-1" value="2 кейса (мин и макс по трудозатратам):&lt;div&gt;1. Проверка на нашем складе + резерв у поставщика&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Затрата по времени: 1,5 мин&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Затрата фин: 130 мин/день или 4068 мин/мес&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. Проверка на нашем складе + на складе поставщика + данные от клиента + звонок клиенту + резерв руками&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;- Затрата по времени: 5 мин&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Затрата фин: 435 мин/день или 13560 мин/мес&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;" vertex="1" parent="QEDv5VtxAJrO-wZHLEnQ-76">
-          <mxGeometry x="410" y="40" width="360" height="160" as="geometry" />
+        <mxCell id="zcdSIdRNRZWzkI2NlEDc-1" value="2 кейса (мин и макс по трудозатратам):&lt;div&gt;1. Проверка на нашем складе + резерв у поставщика&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Затрата по времени: 1,5 мин/задача/сотрудник&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Затрата по времени: 130 мин/день или 4068 мин/мес&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Затрата фин:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. Проверка на нашем складе + на складе поставщика + данные от клиента + звонок клиенту + резерв руками&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;- Затрата по времени: 5 мин мин/задача/сотрудник&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Затрата по времени: 435 мин/день или 13560 мин/мес&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Затрата фин:&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacing=10;" vertex="1" parent="QEDv5VtxAJrO-wZHLEnQ-76">
+          <mxGeometry x="410" y="40" width="360" height="170" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-79" value="Процесс заказа поставщику (закупки)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-3710" y="-3240" width="400" height="400" as="geometry">
+          <mxGeometry x="-3710" y="-3240" width="400" height="530" as="geometry">
             <mxRectangle x="-2810" y="-3060" width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-81" value="&lt;div style=&quot;text-align: left;&quot;&gt;TO BE&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=4;" parent="QEDv5VtxAJrO-wZHLEnQ-79" vertex="1">
-          <mxGeometry x="20" y="230" width="360" height="150" as="geometry" />
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-81" value="&lt;div style=&quot;&quot;&gt;TO BE&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Поставщик присылает прайс листы и остатки (остатки есть в 1С). Сезонный заказ он без цен (только арт, наим).&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Формирование отчета из 1С (уже в процессе) - 10 мин&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Анализ продаж (нужно будет подумать как немного автоматизировать).&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Загружаем через Эксель заказы поставщикам (уже в процессе).&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Дозаказ у поставщиков - нужно API, чтобы передать данные заказа с датой поставки.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=4;align=left;" parent="QEDv5VtxAJrO-wZHLEnQ-79" vertex="1">
+          <mxGeometry x="20" y="250" width="360" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-113" value="&lt;div style=&quot;text-align: left;&quot;&gt;AS IS&lt;br&gt;&lt;div&gt;Этап 1. Поставщик присылает список позиций для заказа. В каком формате он присылает?&lt;/div&gt;&lt;div&gt;Что делают сотрудники?&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;perimeterSpacing=0;spacingLeft=6;" parent="QEDv5VtxAJrO-wZHLEnQ-79" vertex="1">
-          <mxGeometry x="20" y="40" width="360" height="160" as="geometry" />
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-113" value="&lt;div style=&quot;text-align: left;&quot;&gt;AS IS&lt;br&gt;&lt;div&gt;Этап 1. Поставщик присылает прайс листы и остатки (остатки есть в 1С). Сезонный заказ он без цен (только арт, наим). Руками&amp;nbsp;&lt;/div&gt;&lt;div&gt;В каком формате он присылает? - эксель&lt;/div&gt;&lt;div&gt;Собираем отчет (1,5-2 часа) - 1С + руки&lt;/div&gt;&lt;div&gt;Анализ продаж и остатков на складах (0,5 - 1 час) - руками&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Этап 2. Дозаказ у поставщиков, анализ таблицы потом заказ через b2b поставщиков.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Внесение данных по заказу поставщикам нужно внести в 1С (100 позиций - 1 час внесения).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;perimeterSpacing=0;spacingLeft=6;" parent="QEDv5VtxAJrO-wZHLEnQ-79" vertex="1">
+          <mxGeometry x="20" y="40" width="360" height="190" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-114" value="Описание процесса прихода заказа от поставщика" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-4070" y="-2750" width="650" height="1280" as="geometry" />
+          <mxGeometry x="-4080" y="-2660" width="650" height="1280" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="QEDv5VtxAJrO-wZHLEnQ-116" target="QEDv5VtxAJrO-wZHLEnQ-121" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -387,10 +387,13 @@
           <mxGeometry x="30" y="910" width="580" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zcdSIdRNRZWzkI2NlEDc-3" value="" style="swimlane;startSize=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-2340" y="-3055" width="390" height="145" as="geometry" />
+          <mxGeometry x="-2790" y="-3390" width="390" height="145" as="geometry" />
         </mxCell>
         <mxCell id="zcdSIdRNRZWzkI2NlEDc-2" value="&lt;div&gt;проверка на нашем складе - 0,5 мин&lt;/div&gt;&lt;div&gt;проверка на складе поставщика - 0,5 мин&lt;/div&gt;&lt;div&gt;Проверка данных от клиента - 1 мин&lt;/div&gt;&lt;div&gt;Звонок клиенту (если на нашей стороне что-то не так или клиент поставил нереальную дату) - 2 мин&lt;/div&gt;&lt;div&gt;Резервирование товара руками - 1 мин&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;сколько операций в день делает 1 менеджер?&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacing=10;" vertex="1" parent="zcdSIdRNRZWzkI2NlEDc-3">
           <mxGeometry x="30" y="11" width="330" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="zcdSIdRNRZWzkI2NlEDc-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;Работа с перемещением товаров по складам.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;AS IS&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Собираем отчет (1,5-2 часа) - 1С + руки&lt;/div&gt;&lt;div&gt;Анализ продаж и остатков на складах (0,5 - 1 час) - руками&lt;/div&gt;&lt;div&gt;Перемещение товаров с основного склада на ШЦ (1 час) - руки в 1С&lt;/div&gt;&lt;div&gt;Перемещение с ШЦ на основной склад (30 мин) - руки в 1С&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;perimeterSpacing=0;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="-2180" y="-3460" width="360" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
