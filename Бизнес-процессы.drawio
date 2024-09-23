@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.7.16">
   <diagram name="Page-1" id="veRpo0tACFwU-HL0MGSM">
-    <mxGraphModel dx="5569" dy="4337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5644" dy="4381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,7 +135,7 @@
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="QEDv5VtxAJrO-wZHLEnQ-21" target="QEDv5VtxAJrO-wZHLEnQ-27" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-980" y="-2845" as="targetPoint" />
+            <mxPoint x="680" y="-2865.11" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-64" value="2 этап. Процесс заказа поставщику" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QEDv5VtxAJrO-wZHLEnQ-20" vertex="1" connectable="0">
@@ -144,10 +144,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-21" value="отдел&lt;div&gt;ЗАКУПКИ&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-1320" y="-3000" width="150" height="150" as="geometry" />
+          <mxGeometry x="340" y="-3020.11" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-22" value="отдел&lt;div&gt;СКЛАД&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-980" y="-2770" width="150" height="150" as="geometry" />
+          <mxGeometry x="680" y="-2790.11" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QEDv5VtxAJrO-wZHLEnQ-27" target="QEDv5VtxAJrO-wZHLEnQ-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -160,8 +160,8 @@
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="QEDv5VtxAJrO-wZHLEnQ-27" target="QEDv5VtxAJrO-wZHLEnQ-36" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1700" y="-3240" />
-              <mxPoint x="-905" y="-3240" />
+              <mxPoint x="-40" y="-3260.11" />
+              <mxPoint x="755" y="-3260.11" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -171,13 +171,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-27" value="Поставщики" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-1760" y="-3130" width="120" height="60" as="geometry" />
+          <mxGeometry x="-100" y="-3150.11" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="QEDv5VtxAJrO-wZHLEnQ-36" target="QEDv5VtxAJrO-wZHLEnQ-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-36" value="Документы от поставщика" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1005" y="-3180" width="200" height="330" as="geometry" />
+          <mxGeometry x="655" y="-3200.11" width="200" height="330" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="QEDv5VtxAJrO-wZHLEnQ-36" source="QEDv5VtxAJrO-wZHLEnQ-38" target="QEDv5VtxAJrO-wZHLEnQ-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -203,7 +203,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-42" value="ПРОДАЖИ" style="swimlane;" parent="1" vertex="1">
-          <mxGeometry x="-1520" y="-2800" width="200" height="350" as="geometry">
+          <mxGeometry x="140" y="-2820.11" width="200" height="350" as="geometry">
             <mxRectangle x="240" y="780" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -224,17 +224,6 @@
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-70" value="Не забыть.&lt;div&gt;Нужно блочно писать 1С, чтобы можно было без боли обновлять&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="2420" y="-470" width="190" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-75" value="Отчет в отделе закупок (аналитика что заказывать)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-4070" y="-3240" width="250" height="490" as="geometry">
-            <mxRectangle x="-4120" y="-3022" width="180" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-71" value="AS IS.&lt;div&gt;Утром выгрузка 5 отчетов из 1С. Последующая ручная компиляция в Эксель. Затраты по времени: 1,5-2 часа (экономика посчитана).&lt;/div&gt;&lt;div&gt;Анализ, заказ поставщику. Проводится 1 раз в день.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="QEDv5VtxAJrO-wZHLEnQ-75" vertex="1">
-          <mxGeometry x="20" y="40" width="210" height="132" as="geometry" />
-        </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-73" value="TO BE.&lt;div&gt;Утром выгрузка из 1С отчета сразу в Эксель (10 мин.). Загрузка полученных данных в 1С,&lt;/div&gt;&lt;div&gt;Анализ, заказ поставщику.&lt;/div&gt;&lt;div&gt;Проводится 2-3 раза в день.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ЗАДАЧА по отчету выполняется.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="QEDv5VtxAJrO-wZHLEnQ-75" vertex="1">
-          <mxGeometry x="20" y="196" width="210" height="166" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-76" value="Процесс заказа поставщику (продажи)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3200" y="-3240" width="840" height="1030" as="geometry">
@@ -281,18 +270,32 @@
           <mxGeometry x="65" y="902" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-79" value="Процесс заказа поставщику (закупки)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-3710" y="-3240" width="400" height="530" as="geometry">
+          <mxGeometry x="-4090" y="-3240" width="780" height="530" as="geometry">
             <mxRectangle x="-2810" y="-3060" width="180" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-81" value="&lt;div style=&quot;&quot;&gt;TO BE&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Поставщик присылает прайс листы и остатки (остатки есть в 1С). Сезонный заказ он без цен (только арт, наим).&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Формирование отчета из 1С (уже в процессе) - 10 мин&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Анализ продаж (нужно будет подумать как немного автоматизировать).&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Загружаем через Эксель заказы поставщикам (уже в процессе).&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Дозаказ у поставщиков - нужно API, чтобы передать данные заказа с датой поставки.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=4;align=left;" parent="QEDv5VtxAJrO-wZHLEnQ-79" vertex="1">
-          <mxGeometry x="20" y="310" width="360" height="200" as="geometry" />
+          <mxGeometry x="390" y="310" width="360" height="200" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-113" value="&lt;div style=&quot;text-align: left;&quot;&gt;AS IS&lt;br&gt;&lt;div&gt;Этап 1. Поставщик присылает прайс листы и остатки (остатки есть в 1С). Сезонный заказ он без цен (только арт, наим). Руками&amp;nbsp;&lt;/div&gt;&lt;div&gt;В каком формате он присылает? - эксель&lt;/div&gt;&lt;div&gt;Собираем отчет (1,5-2 часа) - 1С + руки&lt;/div&gt;&lt;div&gt;Анализ продаж и остатков на складах (0,5 - 1 час) - руками&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Этап 2. Дозаказ у поставщиков, анализ таблицы потом заказ через b2b поставщиков.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Внесение данных по заказу поставщикам нужно внести в 1С (100 позиций - 1 час внесения).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;perimeterSpacing=0;spacingLeft=6;" parent="QEDv5VtxAJrO-wZHLEnQ-79" vertex="1">
-          <mxGeometry x="20" y="40" width="360" height="240" as="geometry" />
+          <mxGeometry x="390" y="40" width="360" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-75" value="Отчет в отделе закупок (аналитика что заказывать)" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="QEDv5VtxAJrO-wZHLEnQ-79" vertex="1">
+          <mxGeometry x="50" y="40" width="290" height="460" as="geometry">
+            <mxRectangle x="-4120" y="-3022" width="180" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-71" value="AS IS.&lt;div&gt;Утром выгрузка 5 отчетов из 1С. Последующая ручная компиляция в Эксель. Затраты по времени: 1,5-2 часа (экономика посчитана).&lt;/div&gt;&lt;div&gt;Анализ, заказ поставщику. Проводится 1 раз в день.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="QEDv5VtxAJrO-wZHLEnQ-75" vertex="1">
+          <mxGeometry x="20" y="40" width="210" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-73" value="TO BE.&lt;div&gt;Утром выгрузка из 1С отчета сразу в Эксель (10 мин.). Загрузка полученных данных в 1С,&lt;/div&gt;&lt;div&gt;Анализ, заказ поставщику.&lt;/div&gt;&lt;div&gt;Проводится 2-3 раза в день.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ЗАДАЧА по отчету выполняется.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="QEDv5VtxAJrO-wZHLEnQ-75" vertex="1">
+          <mxGeometry x="20" y="196" width="210" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-9" value="&lt;b&gt;&lt;font color=&quot;#ff66b3&quot;&gt;Экономия 2 млрд.руб.&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QEDv5VtxAJrO-wZHLEnQ-75">
+          <mxGeometry x="20" y="390" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-114" value="Описание процесса прихода заказа от поставщика" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-4080" y="-2660" width="650" height="1280" as="geometry" />
+          <mxGeometry x="-2230" y="-3240" width="650" height="1280" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="QEDv5VtxAJrO-wZHLEnQ-116" target="QEDv5VtxAJrO-wZHLEnQ-121" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -407,14 +410,95 @@
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-157" value="Приход 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-154" vertex="1">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-159" value="полная автоматизация процесса" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=7;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-159" value="полная автоматизация процесса приемки и оприходования заказа" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=7;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
           <mxGeometry x="30" y="910" width="580" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zcdSIdRNRZWzkI2NlEDc-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;Работа с перемещением товаров по складам.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;AS IS&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Собираем отчет (1,5-2 часа) - 1С + руки&lt;/div&gt;&lt;div&gt;Анализ продаж и остатков на складах (0,5 - 1 час) - руками&lt;/div&gt;&lt;div&gt;Перемещение товаров с основного склада на ШЦ (1 час) - руки в 1С&lt;/div&gt;&lt;div&gt;Перемещение с ШЦ на основной склад (30 мин) - руки в 1С&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;perimeterSpacing=0;spacingLeft=6;" parent="1" vertex="1">
           <mxGeometry x="90" y="90" width="360" height="210" as="geometry" />
         </mxCell>
         <mxCell id="zcdSIdRNRZWzkI2NlEDc-8" value="&lt;div&gt;Авто резервирование заказа (это не автозаказ с сайта).&lt;/div&gt;&lt;div&gt;&amp;nbsp;- Плохо работает (не резервирует 1С товар, хотя он есть у нас на складе).&lt;/div&gt;&lt;div&gt;Если товар освободился из резерва (отмена заказа), сейчас он не попадает в другие резервы (под следующий заказ).&lt;/div&gt;&lt;div&gt;Если товар едет от поставщиков и в этом заказе поставщику нет резерва, то он тоже не зарезервируется.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="-2250" y="-3370" width="380" height="210" as="geometry" />
+          <mxGeometry x="-1030" y="-3470" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-10" value="&lt;div&gt;Проблемы с парсером&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-3200" y="-2125" width="380" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-11" target="xL8qBU9-TGGZX0Tmj4KI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-11" value="Клиент смотрит на сайте шины" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1300" y="-3197.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-12" target="xL8qBU9-TGGZX0Tmj4KI-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-12" value="Сайт проверяет наличие шин у нас на складе, в ШЦ" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="-3197.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-14" target="xL8qBU9-TGGZX0Tmj4KI-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-14" target="xL8qBU9-TGGZX0Tmj4KI-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-14" target="xL8qBU9-TGGZX0Tmj4KI-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-14" target="xL8qBU9-TGGZX0Tmj4KI-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-14" value="Какие могут быть варианты?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="-3087.5" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-15" target="xL8qBU9-TGGZX0Tmj4KI-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-15" value="Шины есть" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1410" y="-2812.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-17" target="xL8qBU9-TGGZX0Tmj4KI-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-17" target="xL8qBU9-TGGZX0Tmj4KI-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1130" y="-2782" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-31" value="Клиент отказался" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xL8qBU9-TGGZX0Tmj4KI-30">
+          <mxGeometry x="-0.0423" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-17" value="В резерве" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="-2812.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-19" target="xL8qBU9-TGGZX0Tmj4KI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-19" value="Нет шин" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="-2812.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-21" value="В поставке от поставщика&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="-2672" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-23" target="xL8qBU9-TGGZX0Tmj4KI-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-23" value="Они резервируют за клиентом" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1410" y="-2672.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-25" value="Заказ поставщику" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="-2672.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-27" target="xL8qBU9-TGGZX0Tmj4KI-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-27" value="Заказ поставщику" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="-2672.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-29" value="" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1170" y="-2560" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
