@@ -344,7 +344,7 @@
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-130" value="СФ 2&lt;div&gt;50 шт.&lt;/div&gt;&lt;div&gt;арт. 12345&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
           <mxGeometry x="340" y="580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-131" value="Приехала фура с заказанными шинами.&lt;div&gt;Какие действия делают сотрудники отдела закупок?&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=10;spacingRight=4;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-131" value="Приехала фура с заказанными шинами.&lt;div&gt;Какие действия делают сотрудники отдела закупок?&lt;/div&gt;&lt;div&gt;Сходить в бухгалтерию, узнать как у них процесс проходит&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=10;spacingRight=4;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
           <mxGeometry x="30" y="90" width="580" height="120" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-132" value="&lt;span style=&quot;text-align: left;&quot;&gt;Есть 1 заказ поставщику. По этому заказу поставщик может привезти несколько документов. Сейчас мы приходуем поступление одним документом вместо нескольких, которые привез водитель (в ЭДО тоже поступает 3 документа). Проблема: 1С УТ Не находит данный заказ.&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
