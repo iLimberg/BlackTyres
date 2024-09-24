@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.7.16">
   <diagram name="Page-1" id="veRpo0tACFwU-HL0MGSM">
-    <mxGraphModel dx="4870" dy="3933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7720" dy="5582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -422,37 +422,46 @@
         <mxCell id="xL8qBU9-TGGZX0Tmj4KI-10" value="&lt;div&gt;Проблемы с парсером&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-3890" y="-1557" width="380" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-11" target="xL8qBU9-TGGZX0Tmj4KI-12" edge="1">
+        <mxCell id="CjNCMXDgEcyu-v1FaRQe-1" value="AS IS&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Есть еще один баг, если сделали заказ у Багории прим, на пятницу (товар, который должен приехать в пятницу резервируется, но в этот заказа поставщику еще попадают товары, которые должны придти в след поставку (Пн) и вот эти заказы на понедельник не попадают в резерв, так как дата поступления не соответствует дате реальной поставки.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-3890" y="-2020" width="400" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CjNCMXDgEcyu-v1FaRQe-2" value="AS IS&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Кейс: разделение заказов. Мы заказали 32 шт, сначала пришло 12 шт, после этого остаток 20 шт мы закрыли с 0 (типа как не пришло &quot;операция с нулем&quot;), потому что кладовщики не знают, что еще должно 20 прийти. Тогда приходится делать новый заказ поставщику, после чего проставляем заказы клиентов руками.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;?&lt;div&gt;Посмотреть количество товаров с 0. Например, июль и август.&lt;/div&gt;&lt;div&gt;Сравнить сколько из перезаказаннх шин было продано тем же клиентам.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-3890" y="-2250" width="400" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="CjNCMXDgEcyu-v1FaRQe-4" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="-3240" width="1090" height="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" source="xL8qBU9-TGGZX0Tmj4KI-11" target="xL8qBU9-TGGZX0Tmj4KI-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-11" value="Клиент смотрит на сайте шины" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1290" y="-2887.5" width="120" height="60" as="geometry" />
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-11" value="Клиент смотрит на сайте шины" style="rounded=1;whiteSpace=wrap;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" vertex="1">
+          <mxGeometry x="170" y="352.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-12" target="xL8qBU9-TGGZX0Tmj4KI-14" edge="1">
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CjNCMXDgEcyu-v1FaRQe-4" source="xL8qBU9-TGGZX0Tmj4KI-12" target="xL8qBU9-TGGZX0Tmj4KI-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-12" target="xL8qBU9-TGGZX0Tmj4KI-37" edge="1">
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" source="xL8qBU9-TGGZX0Tmj4KI-12" target="xL8qBU9-TGGZX0Tmj4KI-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-12" value="Сайт проверяет наличие шин у нас на складе, в ШЦ" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-1090" y="-2887.5" width="120" height="60" as="geometry" />
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-12" value="Сайт проверяет наличие шин у нас на складе, в ШЦ" style="whiteSpace=wrap;html=1;rounded=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" vertex="1">
+          <mxGeometry x="370" y="352.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-14" target="xL8qBU9-TGGZX0Tmj4KI-15" edge="1">
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" source="xL8qBU9-TGGZX0Tmj4KI-14" target="xL8qBU9-TGGZX0Tmj4KI-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-14" target="xL8qBU9-TGGZX0Tmj4KI-17" edge="1">
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" source="xL8qBU9-TGGZX0Tmj4KI-14" target="xL8qBU9-TGGZX0Tmj4KI-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-14" target="xL8qBU9-TGGZX0Tmj4KI-19" edge="1">
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" source="xL8qBU9-TGGZX0Tmj4KI-14" target="xL8qBU9-TGGZX0Tmj4KI-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-14" target="xL8qBU9-TGGZX0Tmj4KI-21" edge="1">
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" source="xL8qBU9-TGGZX0Tmj4KI-14" target="xL8qBU9-TGGZX0Tmj4KI-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-14" value="Какие могут быть варианты?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-980" y="-2777.5" width="150" height="150" as="geometry" />
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-14" value="Какие могут быть варианты?" style="rhombus;whiteSpace=wrap;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" vertex="1">
+          <mxGeometry x="480" y="462.5" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-15" target="xL8qBU9-TGGZX0Tmj4KI-17" edge="1">
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" source="xL8qBU9-TGGZX0Tmj4KI-15" target="xL8qBU9-TGGZX0Tmj4KI-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xL8qBU9-TGGZX0Tmj4KI-44" value="Резерв за клиентом" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xL8qBU9-TGGZX0Tmj4KI-43" vertex="1" connectable="0">
@@ -460,12 +469,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-15" value="Шины в наличии" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1400" y="-2502.5" width="120" height="60" as="geometry" />
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-15" value="Шины в наличии" style="whiteSpace=wrap;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" vertex="1">
+          <mxGeometry x="60" y="737.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-17" target="xL8qBU9-TGGZX0Tmj4KI-27" edge="1">
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="CjNCMXDgEcyu-v1FaRQe-4" source="xL8qBU9-TGGZX0Tmj4KI-17" target="xL8qBU9-TGGZX0Tmj4KI-27" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1020" y="-2362" as="targetPoint" />
+            <mxPoint x="440" y="878" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xL8qBU9-TGGZX0Tmj4KI-42" value="Клиент не отказался" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xL8qBU9-TGGZX0Tmj4KI-26" vertex="1" connectable="0">
@@ -473,11 +482,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-17" target="xL8qBU9-TGGZX0Tmj4KI-29" edge="1">
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="CjNCMXDgEcyu-v1FaRQe-4" source="xL8qBU9-TGGZX0Tmj4KI-17" target="xL8qBU9-TGGZX0Tmj4KI-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1080" y="-2460" />
-              <mxPoint x="-1180" y="-2460" />
+              <mxPoint x="380" y="780" />
+              <mxPoint x="280" y="780" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -486,28 +495,28 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-17" value="В резерве" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1080" y="-2502.5" width="120" height="60" as="geometry" />
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-17" value="В резерве" style="whiteSpace=wrap;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" vertex="1">
+          <mxGeometry x="380" y="737.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-19" target="xL8qBU9-TGGZX0Tmj4KI-27" edge="1">
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" source="xL8qBU9-TGGZX0Tmj4KI-19" target="xL8qBU9-TGGZX0Tmj4KI-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-19" value="Нет шин" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-860" y="-2502.5" width="120" height="60" as="geometry" />
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-19" value="Нет шин" style="whiteSpace=wrap;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" vertex="1">
+          <mxGeometry x="600" y="737.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-21" value="Товар в пути от поставщика&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-580" y="-2362" width="120" height="60" as="geometry" />
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-21" value="Товар в пути от поставщика&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" vertex="1">
+          <mxGeometry x="880" y="878" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-27" target="xL8qBU9-TGGZX0Tmj4KI-21" edge="1">
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="CjNCMXDgEcyu-v1FaRQe-4" source="xL8qBU9-TGGZX0Tmj4KI-27" target="xL8qBU9-TGGZX0Tmj4KI-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-27" value="Заказ поставщику" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-860" y="-2362.5" width="120" height="60" as="geometry" />
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-27" value="Заказ поставщику" style="whiteSpace=wrap;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" vertex="1">
+          <mxGeometry x="600" y="877.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="xL8qBU9-TGGZX0Tmj4KI-29" target="xL8qBU9-TGGZX0Tmj4KI-27" edge="1">
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="CjNCMXDgEcyu-v1FaRQe-4" source="xL8qBU9-TGGZX0Tmj4KI-29" target="xL8qBU9-TGGZX0Tmj4KI-27" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-880" y="-2180" as="sourcePoint" />
-            <mxPoint x="-1020" y="-2280" as="targetPoint" />
+            <mxPoint x="580" y="1060" as="sourcePoint" />
+            <mxPoint x="440" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xL8qBU9-TGGZX0Tmj4KI-41" value="Отказ, если заказ&lt;div&gt;не в пути&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#b51a00;" parent="xL8qBU9-TGGZX0Tmj4KI-40" vertex="1" connectable="0">
@@ -515,23 +524,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-29" value="Падают в свободный остаток и сразу резервируются на следующий заказ" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1240" y="-2250" width="120" height="140" as="geometry" />
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-29" value="Падают в свободный остаток и сразу резервируются на следующий заказ" style="whiteSpace=wrap;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" vertex="1">
+          <mxGeometry x="220" y="990" width="120" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-37" value="&lt;div&gt;В сайт грузят остатки наших сладов + складов поставщиков.&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-860" y="-2913.75" width="112.5" height="112.5" as="geometry" />
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-37" value="&lt;div&gt;В сайт грузят остатки наших сладов + складов поставщиков.&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" vertex="1">
+          <mxGeometry x="600" y="326.25" width="112.5" height="112.5" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-45" value="TO BE&lt;div&gt;Товар в наличии - автоматическое резервирование (резервирование товара не более 3х дней).&lt;div&gt;Товар есть в наличии, но он весь в резерве - делаем заказ поставщику.&lt;/div&gt;&lt;div&gt;Товар в пути от поставщика - как только его принимают (сделали пик пик) он доступен для авторезервирования. При этом товар может быть сразу отправлен в логистику.&lt;/div&gt;&lt;div&gt;Отказ от резерва (по разным причинам) - товар доступен для резерва другим клиентом.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-895" y="-3140" width="400" height="180" as="geometry" />
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-45" value="TO BE&lt;div&gt;Товар в наличии - автоматическое резервирование (резервирование товара не более 3х дней).&lt;div&gt;Товар есть в наличии, но он весь в резерве - делаем заказ поставщику.&lt;/div&gt;&lt;div&gt;Товар в пути от поставщика - как только его принимают (сделали пик пик) он доступен для авторезервирования. При этом товар может быть сразу отправлен в логистику.&lt;/div&gt;&lt;div&gt;Отказ от резерва (по разным причинам) - товар доступен для резерва другим клиентом.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#d5e8d4;strokeColor=#82b366;" parent="CjNCMXDgEcyu-v1FaRQe-4" vertex="1">
+          <mxGeometry x="565" y="100" width="400" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-46" value="AS IS&lt;div&gt;Главная проблема - автоматом не резервируется товар при разных условиях.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Если товар освободился, он не резервируется.&lt;/div&gt;&lt;div&gt;Если делаем заказ поставщику, то мы проставляем заказ клиента вручную, чтобы он заронился за клиентом, и если клиент отказывается, то товар снова в свободном остатке и его только руками можно забронировать для заказа клиента.&lt;/div&gt;&lt;div&gt;Если товар идет от поставщика в свободный остаток, то сейчас он сходу не резервируется.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="-1315" y="-3140" width="400" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="CjNCMXDgEcyu-v1FaRQe-1" value="AS IS&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Есть еще один баг, если сделали заказ у Багории прим, на пятницу (товар, который должен приехать в пятницу резервируется, но в этот заказа поставщику еще попадают товары, которые должны придти в след поставку (Пн) и вот эти заказы на понедельник не попадают в резерв, так как дата поступления не соответствует дате реальной поставки.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-3890" y="-2020" width="400" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="CjNCMXDgEcyu-v1FaRQe-2" value="AS IS&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Кейс: разделение заказов. Мы заказали 32 шт, сначала пришло 12 шт, после этого остаток 20 шт мы закрыли с 0 (типа как не пришло &quot;операция с нулем&quot;), потому что кладовщики не знают, что еще должно 20 прийти. Тогда приходится делать новый заказ поставщику, после чего проставляем заказы клиентов руками.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;?&lt;div&gt;Посмотреть количество товаров с 0. Например, июль и август.&lt;/div&gt;&lt;div&gt;Сравнить сколько из перезаказаннх шин было продано тем же клиентам.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-3890" y="-2250" width="400" height="210" as="geometry" />
+        <mxCell id="xL8qBU9-TGGZX0Tmj4KI-46" value="AS IS&lt;div&gt;Главная проблема - автоматом не резервируется товар при разных условиях.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Если товар освободился, он не резервируется.&lt;/div&gt;&lt;div&gt;Если делаем заказ поставщику, то мы проставляем заказ клиента вручную, чтобы он заронился за клиентом, и если клиент отказывается, то товар снова в свободном остатке и его только руками можно забронировать для заказа клиента.&lt;/div&gt;&lt;div&gt;Если товар идет от поставщика в свободный остаток, то сейчас он сходу не резервируется.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#f8cecc;strokeColor=#b85450;" parent="CjNCMXDgEcyu-v1FaRQe-4" vertex="1">
+          <mxGeometry x="145" y="100" width="400" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
