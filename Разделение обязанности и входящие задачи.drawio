@@ -75,6 +75,18 @@
         <mxCell id="6zCM-tVnXvu0zWscigJL-16" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Склад, логистика, маркировка&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1610" y="90" width="200" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="6zCM-tVnXvu0zWscigJL-21" value="Проблемы" style="whiteSpace=wrap;html=1;" vertex="1" parent="6zCM-tVnXvu0zWscigJL-16">
+          <mxGeometry x="40" y="70" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6zCM-tVnXvu0zWscigJL-22" value="Улучшения" style="whiteSpace=wrap;html=1;" vertex="1" parent="6zCM-tVnXvu0zWscigJL-16">
+          <mxGeometry x="40" y="40" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6zCM-tVnXvu0zWscigJL-23" value="Баги" style="whiteSpace=wrap;html=1;" vertex="1" parent="6zCM-tVnXvu0zWscigJL-16">
+          <mxGeometry x="40" y="100" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6zCM-tVnXvu0zWscigJL-24" value="Все сломалось" style="whiteSpace=wrap;html=1;" vertex="1" parent="6zCM-tVnXvu0zWscigJL-16">
+          <mxGeometry x="40" y="160" width="120" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="6zCM-tVnXvu0zWscigJL-17" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Закупки, товары, бухгалтерия&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1370" y="90" width="200" height="200" as="geometry" />
         </mxCell>
@@ -83,6 +95,12 @@
         </mxCell>
         <mxCell id="6zCM-tVnXvu0zWscigJL-19" value="Какие задачи попадают под эти направления" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="-1610" y="30" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6zCM-tVnXvu0zWscigJL-25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1590" y="230" as="sourcePoint" />
+            <mxPoint x="-1430" y="230" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
