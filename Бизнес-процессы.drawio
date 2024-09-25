@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.7.16">
   <diagram name="Page-1" id="veRpo0tACFwU-HL0MGSM">
-    <mxGraphModel dx="5644" dy="4381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5691" dy="4300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -555,11 +555,11 @@
         <mxCell id="xL8qBU9-TGGZX0Tmj4KI-46" value="AS IS&lt;div&gt;Главная проблема - автоматом не резервируется товар при разных условиях.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Если товар освободился, он не резервируется.&lt;/div&gt;&lt;div&gt;Если делаем заказ поставщику, то мы проставляем заказ клиента вручную, чтобы он заронился за клиентом, и если клиент отказывается, то товар снова в свободном остатке и его только руками можно забронировать для заказа клиента.&lt;/div&gt;&lt;div&gt;Если товар идет от поставщика в свободный остаток, то сейчас он сходу не резервируется.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#f8cecc;strokeColor=#b85450;" parent="CjNCMXDgEcyu-v1FaRQe-4" vertex="1">
           <mxGeometry x="145" y="100" width="400" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="2TPxTZbnZthBmqwKZEBp-17" value="&lt;div style=&quot;&quot;&gt;За август было принято 2 195 приходных ордеров.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;За сентябрь (по 25) было принято 1775 приходных ордеров.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=7;" vertex="1" parent="1">
-          <mxGeometry x="-2205" y="-1940" width="600" height="50" as="geometry" />
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-17" value="&lt;div style=&quot;&quot;&gt;За август было принято 2 195 приходных ордеров.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;За сентябрь (по 25) было принято 1775 приходных ордеров.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Скорость выполнения зависит от поставщика. Но в целом занимает 15-20 минут на один документ.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=7;" vertex="1" parent="1">
+          <mxGeometry x="-2205" y="-1940" width="600" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="2TPxTZbnZthBmqwKZEBp-18" value="&lt;div&gt;AS IS&lt;/div&gt;&lt;div&gt;Бухгалтерия. Проблема с заказами от Багории и КОЛЕСОПЛЮС&lt;/div&gt;&lt;div&gt;приемок от них авг - 32, почти полный сентябрь - 16&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-3890" y="-1470" width="380" height="67" as="geometry" />
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-18" value="&lt;div&gt;AS IS&lt;/div&gt;&lt;div&gt;Бухгалтерия. Проблема с заказами от Багории и КОЛЕСОПЛЮС&lt;/div&gt;&lt;div&gt;приемок от них авг - 32, почти полный сентябрь - 16&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Нет ГТД, нет маркировки, нет ЭДО. Все делается вручную, занимает львиную долю времени.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-3890" y="-1470" width="380" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
