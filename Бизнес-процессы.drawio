@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.7.16">
   <diagram name="Page-1" id="veRpo0tACFwU-HL0MGSM">
-    <mxGraphModel dx="7720" dy="5582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5644" dy="4381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -231,7 +231,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-77" value="&lt;div style=&quot;text-align: left;&quot;&gt;AS IS&lt;br&gt;&lt;div&gt;Приходит заказ покупателя. Проверка наличия на складе, проверка у поставщика.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Подтверждение с клиентом по телефону заказа.&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;После этого делается резервирование у поставщика на b2b руками (проверить наличие API у партнера или мы не дошли до интеграции), либо b2b по API (парсер). При интеграции снижается риск ошибки менеджера.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Бывает забывают отменить (поставить отмена заказа в 1С) и товар приезжает к нам.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;perimeterSpacing=0;spacingLeft=6;" parent="QEDv5VtxAJrO-wZHLEnQ-76" vertex="1">
-          <mxGeometry x="20" y="220" width="220" height="230" as="geometry" />
+          <mxGeometry x="20" y="220" width="220" height="260" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-78" value="&lt;div style=&quot;text-align: left;&quot;&gt;TO BE&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Приходит заказ покупателя. Автоматом проверяется наличие на складе и у поставщика. Система автоматом резервирует заказ у поставщика, у нас 1С показывает, что товар в наличии, оператор перезванивает клиенту (либо если есть ошибки, либо клиент поставил галочку &quot;требуется звонок оператора&quot;), клиент подтверждает заказ. Оператор ставит дату поступления товара на любой из складов. Снова обмен с поставщиком по API когда нам нужно привезти товар.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=4;" parent="QEDv5VtxAJrO-wZHLEnQ-76" vertex="1">
           <mxGeometry x="20" y="520" width="800" height="90" as="geometry" />
@@ -347,29 +347,32 @@
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-130" value="СФ 2&lt;div&gt;50 шт.&lt;/div&gt;&lt;div&gt;арт. 12345&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
           <mxGeometry x="340" y="580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-131" value="Приехала фура с заказанными шинами.&lt;div&gt;Какие действия делают сотрудники отдела закупок? при приемке заказа Закупки не участвуют ВООБЩЕ. Участвуют только в технических проблемах (бегут в IT).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Сходить в бухгалтерию, узнать как у них процесс проходит&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=10;spacingRight=4;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
-          <mxGeometry x="30" y="90" width="580" height="120" as="geometry" />
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-131" value="Приехала фура с заказанными шинами.&lt;div&gt;Какие действия делают сотрудники отдела закупок? при приемке заказа Закупки не участвуют ВООБЩЕ. Участвуют только в технических проблемах (бегут в IT).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Бухгалтерия в 1С бухгалтерия все принимает по ЭДО автоматически.&lt;/div&gt;&lt;div&gt;В 1С УТ не проставляются номера документов.&lt;/div&gt;&lt;div&gt;Бухгалтерии приходится руками проверять каждую поставку, чтобы сверить цены. Если цена от поставщика в приходном ордере меньше или меньше, чем мы заказывали, они приводят ее руками к значению приходного ордера.&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=10;spacingRight=4;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
+          <mxGeometry x="30" y="80" width="580" height="170" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-132" value="&lt;span style=&quot;text-align: left;&quot;&gt;Есть 1 заказ поставщику. По этому заказу поставщик может привезти несколько документов. Сейчас мы приходуем поступление одним документом вместо нескольких, которые привез водитель (в ЭДО тоже поступает 3 документа). Проблема: 1С УТ Не находит данный заказ.&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
-          <mxGeometry x="30" y="220" width="580" height="80" as="geometry" />
+          <mxGeometry x="30" y="260" width="580" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-133" value="ПРОБЛЕМА:&lt;div&gt;Ручной труд. 0% автоматизации при приеме заказа (ЭДО).&lt;/div&gt;&lt;div&gt;1С УТ Не находит данный заказ.&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=10;spacingRight=4;fillColor=#f8cecc;strokeColor=#b85450;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
-          <mxGeometry x="30" y="700" width="580" height="60" as="geometry" />
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-133" value="ПРОБЛЕМА:&lt;div&gt;Склад принимает половину заказа, остальное ставит в 0 и Закупки делают повторный документ с теми товарами, которые еще поставщик нам не доставил.&lt;/div&gt;&lt;div&gt;Отсутствует обмен данными между 1С УТ и 1С Бух.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=10;spacingRight=4;fillColor=#f8cecc;strokeColor=#b85450;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
+          <mxGeometry x="30" y="700" width="580" height="70" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-148" value="&lt;span style=&quot;text-align: left; font-size: 21px;&quot;&gt;AS IS&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
           <mxGeometry x="30" y="40" width="580" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-149" value="&lt;span style=&quot;text-align: left; font-size: 21px;&quot;&gt;TO BE&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
-          <mxGeometry x="30" y="880" width="580" height="30" as="geometry" />
+          <mxGeometry x="30" y="790" width="580" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-150" value="&lt;span style=&quot;text-align: left;&quot;&gt;для нас это 1 документ&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
           <mxGeometry x="480" y="520" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-153" value="&lt;div style=&quot;text-align: left;&quot;&gt;Водитель привез 3 документа, по ЭДО пришло 3 документа.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;В ЭДО передается УПД, в нем содержится № документа, дата, код товара, кол-во, цена, ГТД, сумма документа и др) и маркировка по каждому товару.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;В 1С оприходовано 3 поступления. На каждый документ прихода должен быть свой документ в 1С&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Что-то нужно в этом процессе делать руками?&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=7;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
-          <mxGeometry x="25" y="1110" width="600" height="130" as="geometry" />
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-153" value="&lt;div style=&quot;text-align: left;&quot;&gt;Водитель привез 3 документа, по ЭДО пришло 3 документа.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;В ЭДО передается УПД, в нем содержится № документа, дата, код товара, кол-во, цена, ГТД, сумма документа и др) и маркировка по каждому товару.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;В 1С оприходовано 3 поступления. На каждый документ прихода должен быть свой документ в 1С&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=7;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
+          <mxGeometry x="25" y="1130" width="600" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="QEDv5VtxAJrO-wZHLEnQ-135" target="2TPxTZbnZthBmqwKZEBp-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-135" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Заказ поставщику&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
-          <mxGeometry x="30" y="960" width="140" height="120" as="geometry" />
+          <mxGeometry x="30" y="870" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-136" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-135" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -380,11 +383,8 @@
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-138" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-135" vertex="1">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="QEDv5VtxAJrO-wZHLEnQ-139" target="QEDv5VtxAJrO-wZHLEnQ-156" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-139" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Поступление от поставщика&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
-          <mxGeometry x="260" y="960" width="140" height="120" as="geometry" />
+          <mxGeometry x="260" y="870" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-140" value="Приход 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-139" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -392,26 +392,45 @@
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-141" value="Приход 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-139" vertex="1">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-142" value="Приход 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-139" vertex="1">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="QEDv5VtxAJrO-wZHLEnQ-137" target="QEDv5VtxAJrO-wZHLEnQ-139" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-154" value="&lt;b&gt;Оприходование в 1С&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
-          <mxGeometry x="460" y="960" width="140" height="120" as="geometry" />
+          <mxGeometry x="460" y="870" width="140" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-155" value="Приход 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-154" vertex="1">
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-155" value="Приход 1 - приняли" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-154" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-156" value="Приход 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-154" vertex="1">
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-156" value="Приход 2 - приняли" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-154" vertex="1">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-157" value="Приход 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-154" vertex="1">
+        <mxCell id="QEDv5VtxAJrO-wZHLEnQ-157" value="Приход 3 - ?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-154" vertex="1">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-159" value="полная автоматизация процесса приемки и оприходования заказа" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=7;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
-          <mxGeometry x="30" y="910" width="580" height="20" as="geometry" />
+          <mxGeometry x="30" y="820" width="580" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="2TPxTZbnZthBmqwKZEBp-3" target="2TPxTZbnZthBmqwKZEBp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-3" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Поступление от поставщика&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="QEDv5VtxAJrO-wZHLEnQ-114">
+          <mxGeometry x="260" y="980" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-4" value="Приход 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="2TPxTZbnZthBmqwKZEBp-3">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-7" value="&lt;b&gt;Оприходование в 1С&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="QEDv5VtxAJrO-wZHLEnQ-114">
+          <mxGeometry x="460" y="1000" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-10" value="Приход 3 - приняли" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="2TPxTZbnZthBmqwKZEBp-7">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.009;exitY=0.101;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="QEDv5VtxAJrO-wZHLEnQ-135" target="QEDv5VtxAJrO-wZHLEnQ-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="171" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.028;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="QEDv5VtxAJrO-wZHLEnQ-139" target="QEDv5VtxAJrO-wZHLEnQ-154">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zcdSIdRNRZWzkI2NlEDc-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;Работа с перемещением товаров по складам.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;AS IS&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Собираем отчет (1,5-2 часа) - 1С + руки&lt;/div&gt;&lt;div&gt;Анализ продаж и остатков на складах (0,5 - 1 час) - руками&lt;/div&gt;&lt;div&gt;Перемещение товаров с основного склада на ШЦ (1 час) - руки в 1С&lt;/div&gt;&lt;div&gt;Перемещение с ШЦ на основной склад (30 мин) - руки в 1С&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;perimeterSpacing=0;spacingLeft=6;" parent="1" vertex="1">
           <mxGeometry x="90" y="90" width="360" height="210" as="geometry" />
@@ -422,13 +441,13 @@
         <mxCell id="xL8qBU9-TGGZX0Tmj4KI-10" value="&lt;div&gt;Проблемы с парсером&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-3890" y="-1557" width="380" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="CjNCMXDgEcyu-v1FaRQe-1" value="AS IS&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Есть еще один баг, если сделали заказ у Багории прим, на пятницу (товар, который должен приехать в пятницу резервируется, но в этот заказа поставщику еще попадают товары, которые должны придти в след поставку (Пн) и вот эти заказы на понедельник не попадают в резерв, так как дата поступления не соответствует дате реальной поставки.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="CjNCMXDgEcyu-v1FaRQe-1" value="AS IS&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Есть еще один баг, если сделали заказ у Багории прим, на пятницу (товар, который должен приехать в пятницу резервируется, но в этот заказа поставщику еще попадают товары, которые должны придти в след поставку (Пн) и вот эти заказы на понедельник не попадают в резерв, так как дата поступления не соответствует дате реальной поставки.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-3890" y="-2020" width="400" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="CjNCMXDgEcyu-v1FaRQe-2" value="AS IS&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Кейс: разделение заказов. Мы заказали 32 шт, сначала пришло 12 шт, после этого остаток 20 шт мы закрыли с 0 (типа как не пришло &quot;операция с нулем&quot;), потому что кладовщики не знают, что еще должно 20 прийти. Тогда приходится делать новый заказ поставщику, после чего проставляем заказы клиентов руками.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;?&lt;div&gt;Посмотреть количество товаров с 0. Например, июль и август.&lt;/div&gt;&lt;div&gt;Сравнить сколько из перезаказаннх шин было продано тем же клиентам.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="CjNCMXDgEcyu-v1FaRQe-2" value="AS IS&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Кейс: разделение заказов. Мы заказали 32 шт, сначала пришло 12 шт, после этого остаток 20 шт мы закрыли с 0 (типа как не пришло &quot;операция с нулем&quot;), потому что кладовщики не знают, что еще должно 20 прийти. Тогда приходится делать новый заказ поставщику, после чего проставляем заказы клиентов руками.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;?&lt;div&gt;Посмотреть количество товаров с 0. Например, июль и август.&lt;/div&gt;&lt;div&gt;Сравнить сколько из перезаказаннх шин было продано тем же клиентам.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-3890" y="-2250" width="400" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="CjNCMXDgEcyu-v1FaRQe-4" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CjNCMXDgEcyu-v1FaRQe-4" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1480" y="-3240" width="1090" height="1240" as="geometry" />
         </mxCell>
         <mxCell id="xL8qBU9-TGGZX0Tmj4KI-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CjNCMXDgEcyu-v1FaRQe-4" source="xL8qBU9-TGGZX0Tmj4KI-11" target="xL8qBU9-TGGZX0Tmj4KI-12" edge="1">
