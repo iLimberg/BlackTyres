@@ -439,7 +439,7 @@
           <mxGeometry x="-3890" y="-1817" width="400" height="200" as="geometry" />
         </mxCell>
         <mxCell id="xL8qBU9-TGGZX0Tmj4KI-10" value="&lt;div&gt;Проблемы с парсером&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="-3890" y="-1557" width="380" height="210" as="geometry" />
+          <mxGeometry x="-3890" y="-1557" width="380" height="67" as="geometry" />
         </mxCell>
         <mxCell id="CjNCMXDgEcyu-v1FaRQe-1" value="AS IS&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Есть еще один баг, если сделали заказ у Багории прим, на пятницу (товар, который должен приехать в пятницу резервируется, но в этот заказа поставщику еще попадают товары, которые должны придти в след поставку (Пн) и вот эти заказы на понедельник не попадают в резерв, так как дата поступления не соответствует дате реальной поставки.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-3890" y="-2020" width="400" height="150" as="geometry" />
@@ -554,6 +554,12 @@
         </mxCell>
         <mxCell id="xL8qBU9-TGGZX0Tmj4KI-46" value="AS IS&lt;div&gt;Главная проблема - автоматом не резервируется товар при разных условиях.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Если товар освободился, он не резервируется.&lt;/div&gt;&lt;div&gt;Если делаем заказ поставщику, то мы проставляем заказ клиента вручную, чтобы он заронился за клиентом, и если клиент отказывается, то товар снова в свободном остатке и его только руками можно забронировать для заказа клиента.&lt;/div&gt;&lt;div&gt;Если товар идет от поставщика в свободный остаток, то сейчас он сходу не резервируется.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#f8cecc;strokeColor=#b85450;" parent="CjNCMXDgEcyu-v1FaRQe-4" vertex="1">
           <mxGeometry x="145" y="100" width="400" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-17" value="&lt;div style=&quot;&quot;&gt;За август было принято 2 195 приходных ордеров.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;За сентябрь (по 25) было принято 1775 приходных ордеров.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=7;" vertex="1" parent="1">
+          <mxGeometry x="-2205" y="-1940" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-18" value="&lt;div&gt;AS IS&lt;/div&gt;&lt;div&gt;Бухгалтерия. Проблема с заказами от Багории и КОЛЕСОПЛЮС&lt;/div&gt;&lt;div&gt;приемок от них авг - 32, почти полный сентябрь - 16&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-3890" y="-1470" width="380" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
