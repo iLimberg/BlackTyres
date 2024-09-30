@@ -349,7 +349,7 @@
         <mxCell id="eAZ0J_NPHGMcCsTDPRW5-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eAZ0J_NPHGMcCsTDPRW5-59" target="eAZ0J_NPHGMcCsTDPRW5-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-59" value="Выполнена" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-59" value="Выполнена" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-1670" y="1710" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eAZ0J_NPHGMcCsTDPRW5-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eAZ0J_NPHGMcCsTDPRW5-60" target="eAZ0J_NPHGMcCsTDPRW5-61">
@@ -373,7 +373,7 @@
         <mxCell id="eAZ0J_NPHGMcCsTDPRW5-60" value="Ревью с заказчиком" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1410" y="1710" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-61" value="Закрыта" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-61" value="Закрыта" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-1170" y="1710" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eAZ0J_NPHGMcCsTDPRW5-62" value="Отменена" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -426,7 +426,7 @@
         <mxCell id="eAZ0J_NPHGMcCsTDPRW5-87" value="Разработка" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-410" y="1270" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-88" value="Закрыта" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-88" value="Закрыта" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-560" y="1360" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eAZ0J_NPHGMcCsTDPRW5-89" value="Отменена" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -438,7 +438,7 @@
         <mxCell id="eAZ0J_NPHGMcCsTDPRW5-91" value="Все" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-70" y="1360" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-96" value="Выполнена" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-96" value="Выполнена" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-410" y="1360" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
