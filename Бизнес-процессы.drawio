@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.7.16">
   <diagram name="Page-1" id="veRpo0tACFwU-HL0MGSM">
-    <mxGraphModel dx="5691" dy="4300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5124" dy="4079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -368,7 +368,7 @@
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-153" value="&lt;div style=&quot;text-align: left;&quot;&gt;Водитель привез 3 документа, по ЭДО пришло 3 документа.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;В ЭДО передается УПД, в нем содержится № документа, дата, код товара, кол-во, цена, ГТД, сумма документа и др) и маркировка по каждому товару.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;В 1С оприходовано 3 поступления. На каждый документ прихода должен быть свой документ в 1С&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=7;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
           <mxGeometry x="25" y="1130" width="600" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="2TPxTZbnZthBmqwKZEBp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="QEDv5VtxAJrO-wZHLEnQ-135" target="2TPxTZbnZthBmqwKZEBp-3">
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="QEDv5VtxAJrO-wZHLEnQ-135" target="2TPxTZbnZthBmqwKZEBp-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-135" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Заказ поставщику&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
@@ -407,29 +407,29 @@
         <mxCell id="QEDv5VtxAJrO-wZHLEnQ-159" value="полная автоматизация процесса приемки и оприходования заказа" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=7;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
           <mxGeometry x="30" y="820" width="580" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2TPxTZbnZthBmqwKZEBp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="2TPxTZbnZthBmqwKZEBp-3" target="2TPxTZbnZthBmqwKZEBp-7">
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="2TPxTZbnZthBmqwKZEBp-3" target="2TPxTZbnZthBmqwKZEBp-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2TPxTZbnZthBmqwKZEBp-3" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Поступление от поставщика&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="QEDv5VtxAJrO-wZHLEnQ-114">
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-3" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Поступление от поставщика&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
           <mxGeometry x="260" y="980" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2TPxTZbnZthBmqwKZEBp-4" value="Приход 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="2TPxTZbnZthBmqwKZEBp-3">
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-4" value="Приход 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="2TPxTZbnZthBmqwKZEBp-3" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2TPxTZbnZthBmqwKZEBp-7" value="&lt;b&gt;Оприходование в 1С&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="QEDv5VtxAJrO-wZHLEnQ-114">
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-7" value="&lt;b&gt;Оприходование в 1С&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QEDv5VtxAJrO-wZHLEnQ-114" vertex="1">
           <mxGeometry x="460" y="1000" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2TPxTZbnZthBmqwKZEBp-10" value="Приход 3 - приняли" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="2TPxTZbnZthBmqwKZEBp-7">
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-10" value="Приход 3 - приняли" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="2TPxTZbnZthBmqwKZEBp-7" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2TPxTZbnZthBmqwKZEBp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.009;exitY=0.101;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="QEDv5VtxAJrO-wZHLEnQ-135" target="QEDv5VtxAJrO-wZHLEnQ-139">
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.17;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.009;exitY=0.101;exitDx=0;exitDy=0;exitPerimeter=0;" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="QEDv5VtxAJrO-wZHLEnQ-135" target="QEDv5VtxAJrO-wZHLEnQ-139" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="171" y="885" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2TPxTZbnZthBmqwKZEBp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.028;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="QEDv5VtxAJrO-wZHLEnQ-139" target="QEDv5VtxAJrO-wZHLEnQ-154">
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.028;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" parent="QEDv5VtxAJrO-wZHLEnQ-114" source="QEDv5VtxAJrO-wZHLEnQ-139" target="QEDv5VtxAJrO-wZHLEnQ-154" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zcdSIdRNRZWzkI2NlEDc-7" value="&lt;div style=&quot;text-align: left;&quot;&gt;Работа с перемещением товаров по складам.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;AS IS&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Собираем отчет (1,5-2 часа) - 1С + руки&lt;/div&gt;&lt;div&gt;Анализ продаж и остатков на складах (0,5 - 1 час) - руками&lt;/div&gt;&lt;div&gt;Перемещение товаров с основного склада на ШЦ (1 час) - руки в 1С&lt;/div&gt;&lt;div&gt;Перемещение с ШЦ на основной склад (30 мин) - руки в 1С&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;perimeterSpacing=0;spacingLeft=6;" parent="1" vertex="1">
@@ -555,10 +555,10 @@
         <mxCell id="xL8qBU9-TGGZX0Tmj4KI-46" value="AS IS&lt;div&gt;Главная проблема - автоматом не резервируется товар при разных условиях.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Если товар освободился, он не резервируется.&lt;/div&gt;&lt;div&gt;Если делаем заказ поставщику, то мы проставляем заказ клиента вручную, чтобы он заронился за клиентом, и если клиент отказывается, то товар снова в свободном остатке и его только руками можно забронировать для заказа клиента.&lt;/div&gt;&lt;div&gt;Если товар идет от поставщика в свободный остаток, то сейчас он сходу не резервируется.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#f8cecc;strokeColor=#b85450;" parent="CjNCMXDgEcyu-v1FaRQe-4" vertex="1">
           <mxGeometry x="145" y="100" width="400" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="2TPxTZbnZthBmqwKZEBp-17" value="&lt;div style=&quot;&quot;&gt;За август было принято 2 195 приходных ордеров.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;За сентябрь (по 25) было принято 1775 приходных ордеров.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Скорость выполнения зависит от поставщика. Но в целом занимает 15-20 минут на один документ.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=7;" vertex="1" parent="1">
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-17" value="&lt;div style=&quot;&quot;&gt;За август было принято 2 195 приходных ордеров.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;За сентябрь (по 25) было принято 1775 приходных ордеров.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Скорость выполнения зависит от поставщика. Но в среднем занимает 15-20 минут на один документ.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Получается 500 рабочих часов - бред.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Иной расчет: 2195 ордеров в мес/168 всего рабочих часов в месяц = 13 ордеров в час.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;60 минут/13 ордеров в час = 4,6 мин/1 ордер.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=7;" parent="1" vertex="1">
           <mxGeometry x="-2205" y="-1940" width="600" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="2TPxTZbnZthBmqwKZEBp-18" value="&lt;div&gt;AS IS&lt;/div&gt;&lt;div&gt;Бухгалтерия. Проблема с заказами от Багории и КОЛЕСОПЛЮС&lt;/div&gt;&lt;div&gt;приемок от них авг - 32, почти полный сентябрь - 16&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Нет ГТД, нет маркировки, нет ЭДО. Все делается вручную, занимает львиную долю времени.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="2TPxTZbnZthBmqwKZEBp-18" value="&lt;div&gt;AS IS&lt;/div&gt;&lt;div&gt;Бухгалтерия. Проблема с заказами от Багории и КОЛЕСОПЛЮС&lt;/div&gt;&lt;div&gt;приемок от них авг - 32, почти полный сентябрь - 16&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Нет ГТД, нет маркировки, нет ЭДО. Все делается вручную, занимает львиную долю времени.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacing=10;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-3890" y="-1470" width="380" height="170" as="geometry" />
         </mxCell>
       </root>
