@@ -67,7 +67,7 @@
           <mxGeometry x="100" y="990" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--32" value="Какие проблемы испытываем?&lt;div&gt;1. медленная работа 1С&lt;/div&gt;&lt;div&gt;2. Не можем обновиться из-за того как написан код.&lt;/div&gt;&lt;div&gt;3. непонятно как всю часть 1С перенести на новую версию и параллельно исправить код.&lt;/div&gt;&lt;div&gt;4. непонятно как получилось, БП подстроили под 1С или наоборот. Но БП точно страдает - совершается много ненужных действий. Или наоборот, действия не совершаются.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="50" y="120" width="330" height="180" as="geometry" />
+          <mxGeometry x="50" y="120" width="750" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
