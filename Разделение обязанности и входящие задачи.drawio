@@ -114,7 +114,7 @@
           <mxGeometry x="-1520" y="630" width="420" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XbYOzq7TOmDHn6luCRxi-2" value="Workflow для типа BUG" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-980" y="630" width="420" height="60" as="geometry" />
+          <mxGeometry x="-720" y="630" width="420" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XbYOzq7TOmDHn6luCRxi-3" value="Workflow по обращению в поддержку" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-2770" y="620" width="420" height="60" as="geometry" />
