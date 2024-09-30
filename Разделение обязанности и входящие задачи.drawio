@@ -125,7 +125,7 @@
         <mxCell id="XbYOzq7TOmDHn6luCRxi-4" value="Пользователь пишет письмо" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2470" y="770" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XbYOzq7TOmDHn6luCRxi-5" value="В письме должна быть информация:&lt;div&gt;1. Автор&lt;/div&gt;&lt;div&gt;2. Тема (емко описана проблема. например, на складе не работает 1С)&lt;/div&gt;&lt;div&gt;3. Описание (подробное описание проблемы, например, на складе в Х н работает 1С. Я открываю программу, кликаю на Х у меня вылезает такое окно (см. скрин)).&lt;/div&gt;&lt;div&gt;4. Какие-то скриншоты для наглядной демонстрации проблемы.&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
+        <mxCell id="XbYOzq7TOmDHn6luCRxi-5" value="В письме должна быть информация:&lt;div&gt;1. Автор&lt;/div&gt;&lt;div&gt;2. Тема (емко описана проблема. например, на складе не работает 1С)&lt;/div&gt;&lt;div&gt;3. Описание (подробное описание проблемы, например:&lt;/div&gt;&lt;div&gt;Что и где не работает? - на складе в Х не работает 1С.&lt;/div&gt;&lt;div&gt;Как проявляется? - Я открываю программу, кликаю на Х у меня вылезает такое окно (см. скрин)).&lt;/div&gt;&lt;div&gt;4. Какие-то скриншоты для наглядной демонстрации проблемы.&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacing=10;" parent="1" vertex="1">
           <mxGeometry x="-2270" y="710" width="520" height="120" as="geometry" />
         </mxCell>
         <mxCell id="XbYOzq7TOmDHn6luCRxi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XbYOzq7TOmDHn6luCRxi-6" target="XbYOzq7TOmDHn6luCRxi-8" edge="1">
@@ -157,8 +157,53 @@
         <mxCell id="eAZ0J_NPHGMcCsTDPRW5-5" value="Решает задачу" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2310" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eAZ0J_NPHGMcCsTDPRW5-7" target="eAZ0J_NPHGMcCsTDPRW5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eAZ0J_NPHGMcCsTDPRW5-7" value="Переводит на продакта в нужном проекте" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2470" y="1320" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2640" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eAZ0J_NPHGMcCsTDPRW5-10" target="eAZ0J_NPHGMcCsTDPRW5-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-10" value="Продакт берет задачу и оценивает ее срочность или актуальность." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2640" y="1260" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eAZ0J_NPHGMcCsTDPRW5-16" target="eAZ0J_NPHGMcCsTDPRW5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-19" value="Актуально&lt;div&gt;срочно&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAZ0J_NPHGMcCsTDPRW5-18">
+          <mxGeometry x="-0.0239" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eAZ0J_NPHGMcCsTDPRW5-16" target="eAZ0J_NPHGMcCsTDPRW5-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-22" value="Актуально&lt;div&gt;не срочно&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAZ0J_NPHGMcCsTDPRW5-21">
+          <mxGeometry x="-0.0074" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eAZ0J_NPHGMcCsTDPRW5-16" target="eAZ0J_NPHGMcCsTDPRW5-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-25" value="Не актуально&lt;div&gt;не срочно&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAZ0J_NPHGMcCsTDPRW5-24">
+          <mxGeometry x="0.0644" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-16" value="Распределяет" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2620" y="1360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-17" value="В работу" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2410" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-20" value="В бэклог" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2640" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-23" value="Может вообще удалить?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2900" y="1370" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
