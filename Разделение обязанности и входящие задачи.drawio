@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.7.16">
   <diagram name="Page-1" id="zKJSg474zFUpfC8e5f8t">
-    <mxGraphModel dx="4674" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4901" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,32 +110,55 @@
         <mxCell id="6zCM-tVnXvu0zWscigJL-27" value="На этапе разделения нужно добавить Направления.&lt;div&gt;&lt;br&gt;&lt;div&gt;В Жире нужно добавить проекты, в проектах сотрудников&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="6zCM-tVnXvu0zWscigJL-26" vertex="1">
           <mxGeometry x="20" y="40" width="160" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="XbYOzq7TOmDHn6luCRxi-1" value="Workflow для типа задача" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XbYOzq7TOmDHn6luCRxi-1" value="Workflow для типа задача" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1520" y="630" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XbYOzq7TOmDHn6luCRxi-2" value="Workflow для типа BUG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XbYOzq7TOmDHn6luCRxi-2" value="Workflow для типа BUG" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-980" y="630" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XbYOzq7TOmDHn6luCRxi-3" value="Workflow по обращению в поддержку" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XbYOzq7TOmDHn6luCRxi-3" value="Workflow по обращению в поддержку" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2550" y="630" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XbYOzq7TOmDHn6luCRxi-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XbYOzq7TOmDHn6luCRxi-4" target="XbYOzq7TOmDHn6luCRxi-6">
+        <mxCell id="XbYOzq7TOmDHn6luCRxi-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XbYOzq7TOmDHn6luCRxi-4" target="XbYOzq7TOmDHn6luCRxi-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XbYOzq7TOmDHn6luCRxi-4" value="Пользователь пишет письмо" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XbYOzq7TOmDHn6luCRxi-4" value="Пользователь пишет письмо" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2470" y="770" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XbYOzq7TOmDHn6luCRxi-5" value="В письме должна быть информация:&lt;div&gt;1. Автор&lt;/div&gt;&lt;div&gt;2. Тема (емко описана проблема. например, на складе не работает 1С)&lt;/div&gt;&lt;div&gt;3. Описание (подробное описание проблемы, например, на складе в Х н работает 1С. Я открываю программу, кликаю на Х у меня вылезает такое окно (см. скрин)).&lt;/div&gt;&lt;div&gt;4. Какие-то скриншоты для наглядной демонстрации проблемы.&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="XbYOzq7TOmDHn6luCRxi-5" value="В письме должна быть информация:&lt;div&gt;1. Автор&lt;/div&gt;&lt;div&gt;2. Тема (емко описана проблема. например, на складе не работает 1С)&lt;/div&gt;&lt;div&gt;3. Описание (подробное описание проблемы, например, на складе в Х н работает 1С. Я открываю программу, кликаю на Х у меня вылезает такое окно (см. скрин)).&lt;/div&gt;&lt;div&gt;4. Какие-то скриншоты для наглядной демонстрации проблемы.&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="1" vertex="1">
           <mxGeometry x="-2270" y="710" width="520" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="XbYOzq7TOmDHn6luCRxi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XbYOzq7TOmDHn6luCRxi-6" target="XbYOzq7TOmDHn6luCRxi-8">
+        <mxCell id="XbYOzq7TOmDHn6luCRxi-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XbYOzq7TOmDHn6luCRxi-6" target="XbYOzq7TOmDHn6luCRxi-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XbYOzq7TOmDHn6luCRxi-6" value="Информация попадает в SD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XbYOzq7TOmDHn6luCRxi-6" value="Информация попадает в SD" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2470" y="910" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XbYOzq7TOmDHn6luCRxi-8" value="Информацию" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XbYOzq7TOmDHn6luCRxi-8" target="eAZ0J_NPHGMcCsTDPRW5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XbYOzq7TOmDHn6luCRxi-8" value="Информацию в SD обрабатывает оператор." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2470" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eAZ0J_NPHGMcCsTDPRW5-1" target="eAZ0J_NPHGMcCsTDPRW5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-9" value="ДА" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAZ0J_NPHGMcCsTDPRW5-6">
+          <mxGeometry x="-0.0333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-8" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eAZ0J_NPHGMcCsTDPRW5-1" target="eAZ0J_NPHGMcCsTDPRW5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-1" value="Может&lt;div&gt;помочь?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2450" y="1150" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-5" value="Решает задачу" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2310" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eAZ0J_NPHGMcCsTDPRW5-7" value="Переводит на продакта в нужном проекте" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2470" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
