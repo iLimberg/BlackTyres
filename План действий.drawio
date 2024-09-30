@@ -4,26 +4,26 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OoqZ8IV61jZ-zZDGYfF--1" value="Основная цель:" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="OoqZ8IV61jZ-zZDGYfF--1" value="Задача: привести систему 1С, склад и логистику в слаженный рабочий механизм" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="50" y="40" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OoqZ8IV61jZ-zZDGYfF--2" target="OoqZ8IV61jZ-zZDGYfF--3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--2" value="Анализ текущих процессов AS IS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OoqZ8IV61jZ-zZDGYfF--3" target="OoqZ8IV61jZ-zZDGYfF--5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--3" value="Зафиксировать будущие процессы TO BE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OoqZ8IV61jZ-zZDGYfF--5" target="OoqZ8IV61jZ-zZDGYfF--7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--5" value="Выявить истинную проблему" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OoqZ8IV61jZ-zZDGYfF--7" target="OoqZ8IV61jZ-zZDGYfF--9">
           <mxGeometry relative="1" as="geometry" />
@@ -32,39 +32,42 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--7" value="Найти специалистов для консультации" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OoqZ8IV61jZ-zZDGYfF--9" target="OoqZ8IV61jZ-zZDGYfF--14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--9" value="1С разработка" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="OoqZ8IV61jZ-zZDGYfF--12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="500" y="539.9999999999998" as="targetPoint" />
+            <mxPoint x="500" y="749.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--12" value="Логистика, склад" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--14" value="Декомпозировать задачи для разработки" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="440" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--27" value="Переработка архитектуры 1С" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="710" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--28" value="Задачи по БП в закупках" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="710" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--29" value="Архитектурные задачи" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="660" width="120" height="30" as="geometry" />
+          <mxGeometry x="80" y="870" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--30" value="Задачи по БП и автоматизации" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="660" width="120" height="30" as="geometry" />
+          <mxGeometry x="250" y="870" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OoqZ8IV61jZ-zZDGYfF--31" value="Есть Описание" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="100" y="780" width="80" height="30" as="geometry" />
+          <mxGeometry x="100" y="990" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OoqZ8IV61jZ-zZDGYfF--32" value="Какие проблемы испытываем?&lt;div&gt;1. медленная работа 1С&lt;/div&gt;&lt;div&gt;2. Не можем обновиться из-за того как написан код.&lt;/div&gt;&lt;div&gt;3. непонятно как всю часть 1С перенести на новую версию и параллельно исправить код.&lt;/div&gt;&lt;div&gt;4. непонятно как получилось, БП подстроили под 1С или наоборот. Но БП точно страдает - совершается много ненужных действий. Или наоборот, действия не совершаются.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="330" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
