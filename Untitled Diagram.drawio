@@ -1,23 +1,50 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15" version="24.8.4">
   <diagram name="Page-1" id="uKkZgEGP30LBr_39MSwS">
-    <mxGraphModel dx="1674" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2143" dy="1640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SI2vmK9ZlvfOi17jyT_v-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Схема документов (покраска дисков)&lt;/h1&gt;&lt;p&gt;Данная блок-схема показывает какие документы на каком этапе необходимо создавать/получать.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SI2vmK9ZlvfOi17jyT_v-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Схема документов (покраска дисков)&lt;/h1&gt;&lt;p&gt;Данная блок-схема показывает какие документы на каком этапе необходимо создавать/получать.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="30" y="30" width="500" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="SI2vmK9ZlvfOi17jyT_v-2" value="Заказ клиента" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ca0fCaTmjlNiCSsV8HPN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SI2vmK9ZlvfOi17jyT_v-2" target="SI2vmK9ZlvfOi17jyT_v-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SI2vmK9ZlvfOi17jyT_v-2" value="Заказ клиента" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="160" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SI2vmK9ZlvfOi17jyT_v-5" value="Приемо-сдаточный акт" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ca0fCaTmjlNiCSsV8HPN-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SI2vmK9ZlvfOi17jyT_v-5" target="ca0fCaTmjlNiCSsV8HPN-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SI2vmK9ZlvfOi17jyT_v-5" value="Клиент сдает диски (компания берет диски для покраски)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="280" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SI2vmK9ZlvfOi17jyT_v-6" value="Есть" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SI2vmK9ZlvfOi17jyT_v-6" value="Есть" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="185" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SI2vmK9ZlvfOi17jyT_v-7" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SI2vmK9ZlvfOi17jyT_v-7" value="Нет" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ca0fCaTmjlNiCSsV8HPN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ca0fCaTmjlNiCSsV8HPN-1" target="ca0fCaTmjlNiCSsV8HPN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ca0fCaTmjlNiCSsV8HPN-1" value="Доставка дисков до покраски" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ca0fCaTmjlNiCSsV8HPN-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ca0fCaTmjlNiCSsV8HPN-2" target="ca0fCaTmjlNiCSsV8HPN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ca0fCaTmjlNiCSsV8HPN-2" value="Покраска дисков" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ca0fCaTmjlNiCSsV8HPN-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ca0fCaTmjlNiCSsV8HPN-3" target="ca0fCaTmjlNiCSsV8HPN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ca0fCaTmjlNiCSsV8HPN-3" value="Доставка дисков до ШЦ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="660" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ca0fCaTmjlNiCSsV8HPN-4" value="Выдача дисков клиенту" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="790" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
