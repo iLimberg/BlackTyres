@@ -43,19 +43,19 @@
         <mxCell id="ca0fCaTmjlNiCSsV8HPN-11" value="Заказ клиента" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="160" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ca0fCaTmjlNiCSsV8HPN-13" value="Клиент сдает диски (компания берет диски для покраски)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ca0fCaTmjlNiCSsV8HPN-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="280" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ca0fCaTmjlNiCSsV8HPN-15" value="Доставка дисков до покраски" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ca0fCaTmjlNiCSsV8HPN-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="400" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ca0fCaTmjlNiCSsV8HPN-17" value="Покраска дисков" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ca0fCaTmjlNiCSsV8HPN-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="530" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ca0fCaTmjlNiCSsV8HPN-19" value="Доставка дисков до ШЦ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ca0fCaTmjlNiCSsV8HPN-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="660" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ca0fCaTmjlNiCSsV8HPN-20" value="Выдача дисков клиенту" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ca0fCaTmjlNiCSsV8HPN-20" value="Документ МХ-3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="790" width="410" height="80" as="geometry" />
         </mxCell>
       </root>
