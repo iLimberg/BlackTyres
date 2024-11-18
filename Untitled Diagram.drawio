@@ -10,7 +10,7 @@
         <mxCell id="ca0fCaTmjlNiCSsV8HPN-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SI2vmK9ZlvfOi17jyT_v-2" target="SI2vmK9ZlvfOi17jyT_v-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SI2vmK9ZlvfOi17jyT_v-2" value="Заказ клиента" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="SI2vmK9ZlvfOi17jyT_v-2" value="Заказ клиента (сайт, телефон, ШЦ)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="160" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ca0fCaTmjlNiCSsV8HPN-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SI2vmK9ZlvfOi17jyT_v-5" target="ca0fCaTmjlNiCSsV8HPN-1">
