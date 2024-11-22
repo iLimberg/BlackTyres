@@ -86,7 +86,7 @@
           <mxGeometry x="1650" y="-10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jrkXxCvTE8E_6U-OKGmR-25" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1090.0000000000005" y="180" width="360" height="480" as="geometry" />
+          <mxGeometry x="1090" y="180" width="630" height="480" as="geometry" />
         </mxCell>
         <mxCell id="jrkXxCvTE8E_6U-OKGmR-26" value="Где принимают&lt;div&gt;заявку&lt;/div&gt;" style="swimlane;startSize=40;html=1;" vertex="1" parent="jrkXxCvTE8E_6U-OKGmR-25">
           <mxGeometry y="20" width="120" height="460" as="geometry" />
@@ -100,17 +100,20 @@
         <mxCell id="jrkXxCvTE8E_6U-OKGmR-31" value="КЦ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jrkXxCvTE8E_6U-OKGmR-26">
           <mxGeometry x="20" y="220" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jrkXxCvTE8E_6U-OKGmR-27" value="Откуда отправляют&lt;div&gt;заявку&lt;/div&gt;" style="swimlane;startSize=40;html=1;" vertex="1" parent="jrkXxCvTE8E_6U-OKGmR-25">
+        <mxCell id="jrkXxCvTE8E_6U-OKGmR-27" value="Откуда отправляют&lt;div&gt;диски&lt;/div&gt;" style="swimlane;startSize=40;html=1;" vertex="1" parent="jrkXxCvTE8E_6U-OKGmR-25">
           <mxGeometry x="120" y="20" width="120" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="jrkXxCvTE8E_6U-OKGmR-6" value="Забор от клиента" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jrkXxCvTE8E_6U-OKGmR-27">
+        <mxCell id="jrkXxCvTE8E_6U-OKGmR-33" value="ШЦ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jrkXxCvTE8E_6U-OKGmR-27">
           <mxGeometry x="20" y="60" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jrkXxCvTE8E_6U-OKGmR-33" value="ШЦ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jrkXxCvTE8E_6U-OKGmR-27">
-          <mxGeometry x="20" y="140" width="80" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="jrkXxCvTE8E_6U-OKGmR-28" value="Lane 3" style="swimlane;startSize=40;html=1;" vertex="1" parent="jrkXxCvTE8E_6U-OKGmR-25">
-          <mxGeometry x="240" y="20" width="120" height="460" as="geometry" />
+          <mxGeometry x="240" y="20" width="130" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="jrkXxCvTE8E_6U-OKGmR-37" style="swimlane;startSize=40;html=1;" vertex="1" parent="jrkXxCvTE8E_6U-OKGmR-25">
+          <mxGeometry x="370" y="20" width="130" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="jrkXxCvTE8E_6U-OKGmR-38" style="swimlane;startSize=40;html=1;" vertex="1" parent="jrkXxCvTE8E_6U-OKGmR-25">
+          <mxGeometry x="500" y="20" width="130" height="460" as="geometry" />
         </mxCell>
         <mxCell id="jrkXxCvTE8E_6U-OKGmR-14" value="Заказ-наряд на покраску" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1460" y="10" width="120" height="60" as="geometry" />
