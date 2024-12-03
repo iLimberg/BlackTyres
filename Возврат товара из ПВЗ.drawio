@@ -39,8 +39,8 @@
         <mxCell id="cEOoGB9jimii8mQ0SRFu-12" value="Приняли на ПВЗ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1600" y="760" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cEOoGB9jimii8mQ0SRFu-14" value="Нет процесса" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
-          <mxGeometry x="-1730" y="760" width="100" height="60" as="geometry" />
+        <mxCell id="cEOoGB9jimii8mQ0SRFu-14" value="Нет процесса" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1730" y="760" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cEOoGB9jimii8mQ0SRFu-15" target="cEOoGB9jimii8mQ0SRFu-12">
           <mxGeometry relative="1" as="geometry" />
@@ -48,44 +48,50 @@
         <mxCell id="cEOoGB9jimii8mQ0SRFu-15" value="Сдали доставку на ПВЗ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1600" y="600" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cEOoGB9jimii8mQ0SRFu-16" value="Нет процесса" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+        <mxCell id="cEOoGB9jimii8mQ0SRFu-16" value="Нет процесса" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-1720" y="605" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-19" value="Фиксация продажи товара" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="650" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cEOoGB9jimii8mQ0SRFu-22" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Нет процесса" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
-          <mxGeometry x="-1270" y="520" width="100" height="100" as="geometry" />
+          <mxGeometry x="-1320" y="760" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cEOoGB9jimii8mQ0SRFu-24" target="cEOoGB9jimii8mQ0SRFu-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-24" value="Клиент приехал за товаром" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1350" y="420" width="140" height="60" as="geometry" />
+          <mxGeometry x="-1320" y="530" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cEOoGB9jimii8mQ0SRFu-26" target="cEOoGB9jimii8mQ0SRFu-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-26" value="Клиент попросил отложить товар" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1100" y="420" width="140" height="60" as="geometry" />
+          <mxGeometry x="-1070" y="530" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cEOoGB9jimii8mQ0SRFu-27" target="cEOoGB9jimii8mQ0SRFu-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-27" value="Клиент просто не приехал за товаром" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="420" width="140" height="60" as="geometry" />
+          <mxGeometry x="-820" y="530" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-28" value="Забираем товар обратно" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="650" width="140" height="60" as="geometry" />
+          <mxGeometry x="-820" y="760" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-29" value="Откладываем и не забираем товар" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1100" y="650" width="140" height="60" as="geometry" />
+          <mxGeometry x="-1070" y="760" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cEOoGB9jimii8mQ0SRFu-32" value="Задание на сборку" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
-          <mxGeometry x="-1654" y="240" width="100" height="60" as="geometry" />
+        <mxCell id="cEOoGB9jimii8mQ0SRFu-32" value="Задание на сборку" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1654" y="240" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="cEOoGB9jimii8mQ0SRFu-33" value="Задание на перевозку" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
-          <mxGeometry x="-1650" y="380" width="100" height="60" as="geometry" />
+        <mxCell id="cEOoGB9jimii8mQ0SRFu-33" value="Задание на перевозку" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1650" y="380" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cEOoGB9jimii8mQ0SRFu-36" value="Нет процесса" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1710" y="455" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cEOoGB9jimii8mQ0SRFu-37" value="Нет процесса" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-1230" y="690" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cEOoGB9jimii8mQ0SRFu-38" value="Нет процесса" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-980" y="690" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
