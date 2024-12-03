@@ -17,20 +17,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-4" value="Доставили в ПВЗ 10 комплектов шин" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1600" y="430" width="140" height="60" as="geometry" />
+          <mxGeometry x="-1600" y="450" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cEOoGB9jimii8mQ0SRFu-5" target="cEOoGB9jimii8mQ0SRFu-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cEOoGB9jimii8mQ0SRFu-10" value="Задание на сборку заказа" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cEOoGB9jimii8mQ0SRFu-9">
-          <mxGeometry x="-0.0333" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-5" value="Заказ клиентов с выдачей на ПВЗ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1600" y="160" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cEOoGB9jimii8mQ0SRFu-11" value="Задание на перевозку" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cEOoGB9jimii8mQ0SRFu-8" target="cEOoGB9jimii8mQ0SRFu-4">
+        <mxCell id="cEOoGB9jimii8mQ0SRFu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cEOoGB9jimii8mQ0SRFu-8" target="cEOoGB9jimii8mQ0SRFu-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-1530" y="390" />
@@ -39,28 +34,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-8" value="Сборка заказа на складе" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1600" y="280" width="140" height="60" as="geometry" />
+          <mxGeometry x="-1600" y="310" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-12" value="Приняли на ПВЗ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1600" y="650" width="140" height="60" as="geometry" />
+          <mxGeometry x="-1600" y="760" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-14" value="Нет процесса" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
-          <mxGeometry x="-1790" y="630" width="160" height="100" as="geometry" />
+          <mxGeometry x="-1730" y="760" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cEOoGB9jimii8mQ0SRFu-15" target="cEOoGB9jimii8mQ0SRFu-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-15" value="Сдали доставку на ПВЗ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1600" y="540" width="140" height="60" as="geometry" />
+          <mxGeometry x="-1600" y="600" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-16" value="Нет процесса" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
-          <mxGeometry x="-1790" y="520" width="160" height="100" as="geometry" />
+          <mxGeometry x="-1720" y="605" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-19" value="Фиксация продажи товара" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1350" y="650" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-22" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Нет процесса" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
-          <mxGeometry x="-1270" y="520" width="160" height="100" as="geometry" />
+          <mxGeometry x="-1270" y="520" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cEOoGB9jimii8mQ0SRFu-24" target="cEOoGB9jimii8mQ0SRFu-19">
           <mxGeometry relative="1" as="geometry" />
@@ -85,6 +80,12 @@
         </mxCell>
         <mxCell id="cEOoGB9jimii8mQ0SRFu-29" value="Откладываем и не забираем товар" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1100" y="650" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cEOoGB9jimii8mQ0SRFu-32" value="Задание на сборку" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="-1654" y="240" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cEOoGB9jimii8mQ0SRFu-33" value="Задание на перевозку" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="-1650" y="380" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
